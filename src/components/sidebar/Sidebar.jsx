@@ -1,5 +1,5 @@
 import React from "react";
-import './Sidebar.css';
+import '/vercel/path0/src/components/sidebar/Sidebar.css';
 import logoSpotify from /vercel/path0/src/assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faSearch, faBook, faPlus, faGlobe } from '@fortawesome/free-solid-svg-icons';
