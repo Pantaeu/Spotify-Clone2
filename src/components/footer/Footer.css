@@ -1,0 +1,55 @@
+.premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    background: linear-gradient(to right, #d30f39, #0084ff);
+    padding: 10px; /* Adicione padding conforme necessário */
+    color: white; /* Cor do texto no rodapé, ajuste conforme necessário */
+}
+.footer__premium {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.footer__premium .premium__texto {
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+    justify-content: space-between
+}
+.premium__texto h1 {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+}
+.premium__texto p {
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.premium .botao__premium {
+    display: flex;
+    position: fixed;
+    right: 0;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0;
+    width: 150px;
+    margin-right: 50px;
+}
+.premium .botao__premium:hover {
+    background-color: #cecece;
+}
