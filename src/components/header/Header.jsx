@@ -1,4 +1,4 @@
-import './Header.css';
+import '/vercel/path0/src/components/header/Header.css';
 import smallRight from '/vercel/path0/src/assets/icons/small-right.png';
 import smallLeft from  '/vercel/path0/src/assets/icons/small-left.png';
 import search from '/vercel/path0/src/assets/icons/search.png';
