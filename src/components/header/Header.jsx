@@ -1,7 +1,7 @@
 import './Header.css';
-import smallRight from '../assets/icons/small-right.png';
-import smallLeft from  '../assets/icons/small-left.png';
-import search from '../assets/icons/search.png';
+import smallRight from './src/assets/icons/small-right.png';
+import smallLeft from  './src/assets/icons/small-left.png';
+import search from './src/assets/icons/search.png';
 import React, { useState } from 'react';
 
 const Header = ({ setSearchTerm }) => {
