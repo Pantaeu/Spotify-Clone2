@@ -1,5 +1,5 @@
 import React from "react";
-import './Footer.css';
+import '/vercel/path0/src/components//Footer.css';
 
 const Footer = () => {
     return (
