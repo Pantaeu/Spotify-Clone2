@@ -4,20 +4,20 @@
     left: 0;
     top: 0;
     width: 300px;
-    background-color: #000000;
+    background: linear-gradient(to bottom, #c00820, #70041f);
     padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 0 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background-color: #121212;
+    background-color: transparent;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -48,7 +48,7 @@
 }
 
 .biblioteca {
-    background-color: #121212;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
     display: flex;
     align-items: start;
     justify-content: space-between;
-    background-color: #242424;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 16px 20px;
     border-radius: 8px;
     color: #cecece;
@@ -119,8 +119,8 @@
 .section-playlist__content .botao__section-playlist {
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
@@ -129,18 +129,19 @@
     padding: 10px;
     border: 0;
     width: 113px;
-    margin-top: 12px
+    margin-top: 12px;
+    transition: background-color 0.3 ease;
 }
 .section-playlist__content .botao__section-playlist:hover {
     transform: scale(1.04);
-    background-color: #cecece;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .section-podcast {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    background-color: #242424;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 16px 20px;
     border-radius: 8px;
     color: #cecece;
@@ -166,8 +167,8 @@
 .section-podcast__content .botao__section-podcast {
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
@@ -176,11 +177,12 @@
     padding: 10px;
     border: 0;
     width: 150px;
-    margin-top: 12px
+    margin-top: 12px;
+    transition: background-color 0.3 ease;
 }
 .section-podcast__content .botao__section-podcast:hover {
     transform: scale(1.04);
-    background-color: #cecece;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .sidebar .links {
@@ -209,10 +211,10 @@
     margin: 6px;
     padding: 5px;
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.3s ease;
 }
 .linguas .botao__linguas:hover {
     transform: scale(1.04);
-    background-color: #242424;
+    background-color: rgba(0, 0, 0, 0.5);
     border-color: #fff;
 }

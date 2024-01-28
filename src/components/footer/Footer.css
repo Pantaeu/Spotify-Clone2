@@ -4,7 +4,7 @@
     position: fixed;
     bottom: 0;
     width: 100%; 
-    background: linear-gradient(to right, #d30f39, #0084ff);
+    background-color: #3A020F;
     padding: 10px; /* Adicione padding conforme necessário */
     color: white; /* Cor do texto no rodapé, ajuste conforme necessário */
 }
@@ -38,8 +38,8 @@
     position: fixed;
     right: 0;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
@@ -51,5 +51,6 @@
     margin-right: 50px;
 }
 .premium .botao__premium:hover {
-    background-color: #cecece;
+    transform: scale(1.02);
+    background-color: rgba(0, 0, 0, 0.8);
 }

@@ -1,11 +1,18 @@
-import React from "react";
 import './Header.css';
-import smallRight from  '/Users/panta/spotify-react/src/assets/icons/small-right.png';
-import smallLeft from  '/Users/panta/spotify-react/src/assets/icons/small-left.png';
-import search from '/Users/panta/spotify-react/src/assets/icons/search.png';
+import smallRight from '/Users/panta/spotify__clone-react/src/assets/icons/small-right.png';
+import smallLeft from  '/Users/panta/spotify__clone-react/src/assets/icons/small-left.png';
+import search from '/Users/panta/spotify__clone-react/src/assets/icons/search.png';
+import React, { useState } from 'react';
 
-const Header = () => {
-    return (
+const Header = ({ setSearchTerm }) => {
+  const [inputValue, setInputValue] = useState("");
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+    setSearchTerm(e.target.value);
+  };
+
+  return (
         <nav className="header__navigation">
         <div className="navigation">
           <button className="arrow-left">
@@ -17,8 +24,7 @@ const Header = () => {
 
           <div className="header__search">
             <img src={search} alt="" />
-            <input id="search-input" type="search" maxLength='800' autocorrect="off" autocapitalize="off" spellcheck="false"
-              placeholder="O que você quer ouvir?" />
+            <input id="search-input" type="text" maxLength='800' autocorrect="off"  autocapitalize="off"  spellcheck="false" placeholder="O que você quer ouvir?" />
           </div>
         </div>
 
