@@ -1,19 +1,19 @@
 import './Main.css';
-import playlistCard1 from '/Users/panta/spotify__clone-react/src/assets/playlist/1.jpeg'
-import playlistCard2 from '/Users/panta/spotify__clone-react/src/assets/playlist/2.png';
-import playlistCard3 from '/Users/panta/spotify__clone-react/src/assets/playlist/3.jpeg';
-import playlistCard4 from '/Users/panta/spotify__clone-react/src/assets/playlist/4.jpeg';
-import playlistCard5 from '/Users/panta/spotify__clone-react/src/assets/playlist/5.jpeg';
-import playlistCard6 from '/Users/panta/spotify__clone-react/src/assets/playlist/6.jpeg';
-import playlistCard7 from '/Users/panta/spotify__clone-react/src/assets/playlist/7.jpeg';
-import playlistCard8 from '/Users/panta/spotify__clone-react/src/assets/playlist/8.jpeg';
-import playlistCard9 from '/Users/panta/spotify__clone-react/src/assets/playlist/9.jpeg';
-import playlistCard10 from '/Users/panta/spotify__clone-react/src/assets/playlist/10.jpeg';
-import playlistCard11 from '/Users/panta/spotify__clone-react/src/assets/playlist/11.jpeg';
-import playlistCard12 from '/Users/panta/spotify__clone-react/src/assets/playlist/12.jpeg';
-import playlistCard13 from '/Users/panta/spotify__clone-react/src/assets/playlist/13.jpeg';
-import playlistCard14 from '/Users/panta/spotify__clone-react/src/assets/playlist/14.jpeg';
-import playlistCard15 from '/Users/panta/spotify__clone-react/src/assets/playlist/15.jpeg';
+import playlistCard1 from '../assets/playlist/1.jpeg'
+import playlistCard2 from '../assets/playlist/2.png';
+import playlistCard3 from '../assets/playlist/3.jpeg';
+import playlistCard4 from '../assets/playlist/4.jpeg';
+import playlistCard5 from '../assets/playlist/5.jpeg';
+import playlistCard6 from '../assets/playlist/6.jpeg';
+import playlistCard7 from '../assets/playlist/7.jpeg';
+import playlistCard8 from '../assets/playlist/8.jpeg';
+import playlistCard9 from '../assets/playlist/9.jpeg';
+import playlistCard10 from '../assets/playlist/10.jpeg';
+import playlistCard11 from '../assets/playlist/11.jpeg';
+import playlistCard12 from '../assets/playlist/12.jpeg';
+import playlistCard13 from '../assets/playlist/13.jpeg';
+import playlistCard14 from '../assets/playlist/14.jpeg';
+import playlistCard15 from '../assets/playlist/15.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPlay} from '@fortawesome/free-solid-svg-icons';
 import React, { useState, useEffect } from 'react';
